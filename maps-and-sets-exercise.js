@@ -12,10 +12,10 @@ function hasDuplicate(arr){
     const arrSet = new Set(arr)
 
     if (arrSet.size != arr.length){
-        return false
+        return true
     }
 
-    return true
+    return false
 };
 
 function isVowel(char){
